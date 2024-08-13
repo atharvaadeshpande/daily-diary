@@ -1,0 +1,23 @@
+import java.util.*;
+import java.util.Scanner;
+
+public class challenge {
+    public static void main(String []args){
+        
+    int a; int b;
+    Scanner read = new Scanner (System.in);
+    
+    System.out.println("Enter the value of a");
+    a = read.nextInt();
+    
+    System.out.println("Enter the value of b");
+    b = read.nextInt();
+    
+    int sum = a + b;
+    int diff = a - b;
+    System.out.println("The sum of given numbers is " +sum);
+    System.out.println("The difference of given numbers is " +diff);
+
+    
+}
+}

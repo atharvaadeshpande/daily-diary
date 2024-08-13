@@ -1,0 +1,21 @@
+import java.util.Scanner; 
+
+public class Challenge {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); 
+        int a;
+        
+       
+        System.out.println("Enter a number:");
+        a = scanner.nextInt(); 
+        
+        
+        if (a <= 10) {
+            System.out.println("You are on the right path");
+        } else {
+            System.out.println("Please check the number you have given");
+        }
+        
+        scanner.close(); 
+    }
+}
